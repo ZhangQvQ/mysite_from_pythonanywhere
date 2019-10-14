@@ -10,13 +10,20 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1570852229,,"wq"
+|2,0,1571018650,,"wq"
 :q
-|2,0,1570852052,,"q"
+|2,0,1571018408,,"q"
+:WQ
+|2,0,1571016916,,"WQ"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1571017897,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -27,70 +34,276 @@
 # Registers:
 
 # File marks:
-'0  7  36  ~/mysite/avgle/views.py
-|4,48,7,36,1570852229,"~/mysite/avgle/views.py"
-'1  6  40  ~/mysite/avgle/urls.py
-|4,49,6,40,1570852052,"~/mysite/avgle/urls.py"
-'2  6  40  ~/mysite/avgle/urls.py
-|4,50,6,40,1570851384,"~/mysite/avgle/urls.py"
-'3  21  37  ~/mysite/mysite/urls.py
-|4,51,21,37,1570851209,"~/mysite/mysite/urls.py"
+'0  21  9  ~/mysite/mysite/urls.py
+|4,48,21,9,1571018650,"~/mysite/mysite/urls.py"
+'1  18  0  ~/mysite/mysite/urls.py
+|4,49,18,0,1571018408,"~/mysite/mysite/urls.py"
+'2  18  0  ~/mysite/mysite/urls.py
+|4,50,18,0,1571018408,"~/mysite/mysite/urls.py"
+'3  6  36  ~/mysite/blog/views.py
+|4,51,6,36,1571018325,"~/mysite/blog/views.py"
+'4  6  40  ~/mysite/blog/urls.py
+|4,52,6,40,1571018158,"~/mysite/blog/urls.py"
+'5  21  39  ~/mysite/mysite/urls.py
+|4,53,21,39,1571017887,"~/mysite/mysite/urls.py"
+'6  21  39  ~/mysite/mysite/urls.py
+|4,54,21,39,1571017887,"~/mysite/mysite/urls.py"
+'7  21  39  ~/mysite/mysite/urls.py
+|4,55,21,39,1571017887,"~/mysite/mysite/urls.py"
+'8  40  8  ~/mysite/mysite/settings.py
+|4,56,40,8,1571017545,"~/mysite/mysite/settings.py"
+'9  58  30  ~/mysite/mysite/settings.py
+|4,57,58,30,1571016920,"~/mysite/mysite/settings.py"
 
 # Jumplist (newest first):
--'  7  36  ~/mysite/avgle/views.py
-|4,39,7,36,1570852229,"~/mysite/avgle/views.py"
--'  1  0  ~/mysite/avgle/views.py
-|4,39,1,0,1570852072,"~/mysite/avgle/views.py"
--'  6  40  ~/mysite/avgle/urls.py
-|4,39,6,40,1570852052,"~/mysite/avgle/urls.py"
--'  6  40  ~/mysite/avgle/urls.py
-|4,39,6,40,1570852052,"~/mysite/avgle/urls.py"
--'  6  40  ~/mysite/avgle/urls.py
-|4,39,6,40,1570851384,"~/mysite/avgle/urls.py"
--'  6  40  ~/mysite/avgle/urls.py
-|4,39,6,40,1570851384,"~/mysite/avgle/urls.py"
--'  1  0  ~/mysite/avgle/urls.py
-|4,39,1,0,1570851221,"~/mysite/avgle/urls.py"
--'  1  0  ~/mysite/avgle/urls.py
-|4,39,1,0,1570851221,"~/mysite/avgle/urls.py"
--'  1  0  ~/mysite/avgle/urls.py
-|4,39,1,0,1570851221,"~/mysite/avgle/urls.py"
--'  1  0  ~/mysite/avgle/urls.py
-|4,39,1,0,1570851221,"~/mysite/avgle/urls.py"
--'  21  37  ~/mysite/mysite/urls.py
-|4,39,21,37,1570851209,"~/mysite/mysite/urls.py"
--'  21  37  ~/mysite/mysite/urls.py
-|4,39,21,37,1570851209,"~/mysite/mysite/urls.py"
--'  21  37  ~/mysite/mysite/urls.py
-|4,39,21,37,1570851209,"~/mysite/mysite/urls.py"
--'  21  37  ~/mysite/mysite/urls.py
-|4,39,21,37,1570851209,"~/mysite/mysite/urls.py"
--'  21  37  ~/mysite/mysite/urls.py
-|4,39,21,37,1570851209,"~/mysite/mysite/urls.py"
--'  21  37  ~/mysite/mysite/urls.py
-|4,39,21,37,1570851209,"~/mysite/mysite/urls.py"
--'  21  37  ~/mysite/mysite/urls.py
-|4,39,21,37,1570851209,"~/mysite/mysite/urls.py"
--'  21  37  ~/mysite/mysite/urls.py
-|4,39,21,37,1570851209,"~/mysite/mysite/urls.py"
--'  1  0  ~/mysite/mysite/urls.py
-|4,39,1,0,1570851096,"~/mysite/mysite/urls.py"
--'  1  0  ~/mysite/mysite/urls.py
-|4,39,1,0,1570851096,"~/mysite/mysite/urls.py"
--'  1  0  ~/mysite/mysite/urls.py
-|4,39,1,0,1570851096,"~/mysite/mysite/urls.py"
--'  1  0  ~/mysite/mysite/urls.py
-|4,39,1,0,1570851096,"~/mysite/mysite/urls.py"
--'  1  0  ~/mysite/mysite/urls.py
-|4,39,1,0,1570851096,"~/mysite/mysite/urls.py"
--'  1  0  ~/mysite/mysite/urls.py
-|4,39,1,0,1570851096,"~/mysite/mysite/urls.py"
--'  1  0  ~/mysite/mysite/urls.py
-|4,39,1,0,1570851096,"~/mysite/mysite/urls.py"
--'  1  0  ~/mysite/mysite/urls.py
-|4,39,1,0,1570851096,"~/mysite/mysite/urls.py"
+-'  21  9  ~/mysite/mysite/urls.py
+|4,39,21,9,1571018650,"~/mysite/mysite/urls.py"
+-'  18  0  ~/mysite/mysite/urls.py
+|4,39,18,0,1571018634,"~/mysite/mysite/urls.py"
+-'  18  0  ~/mysite/mysite/urls.py
+|4,39,18,0,1571018408,"~/mysite/mysite/urls.py"
+-'  21  39  ~/mysite/mysite/urls.py
+|4,39,21,39,1571018388,"~/mysite/mysite/urls.py"
+-'  6  36  ~/mysite/blog/views.py
+|4,39,6,36,1571018325,"~/mysite/blog/views.py"
+-'  6  36  ~/mysite/blog/views.py
+|4,39,6,36,1571018325,"~/mysite/blog/views.py"
+-'  6  36  ~/mysite/blog/views.py
+|4,39,6,36,1571018325,"~/mysite/blog/views.py"
+-'  6  36  ~/mysite/blog/views.py
+|4,39,6,36,1571018325,"~/mysite/blog/views.py"
+-'  1  0  ~/mysite/blog/views.py
+|4,39,1,0,1571018167,"~/mysite/blog/views.py"
+-'  1  0  ~/mysite/blog/views.py
+|4,39,1,0,1571018167,"~/mysite/blog/views.py"
+-'  1  0  ~/mysite/blog/views.py
+|4,39,1,0,1571018167,"~/mysite/blog/views.py"
+-'  1  0  ~/mysite/blog/views.py
+|4,39,1,0,1571018167,"~/mysite/blog/views.py"
+-'  6  40  ~/mysite/blog/urls.py
+|4,39,6,40,1571018158,"~/mysite/blog/urls.py"
+-'  6  40  ~/mysite/blog/urls.py
+|4,39,6,40,1571018158,"~/mysite/blog/urls.py"
+-'  6  40  ~/mysite/blog/urls.py
+|4,39,6,40,1571018158,"~/mysite/blog/urls.py"
+-'  6  40  ~/mysite/blog/urls.py
+|4,39,6,40,1571018158,"~/mysite/blog/urls.py"
+-'  6  40  ~/mysite/blog/urls.py
+|4,39,6,40,1571018158,"~/mysite/blog/urls.py"
+-'  6  40  ~/mysite/blog/urls.py
+|4,39,6,40,1571018158,"~/mysite/blog/urls.py"
+-'  6  40  ~/mysite/blog/urls.py
+|4,39,6,40,1571018158,"~/mysite/blog/urls.py"
+-'  6  40  ~/mysite/blog/urls.py
+|4,39,6,40,1571018158,"~/mysite/blog/urls.py"
+-'  1  0  ~/mysite/blog/urls.py
+|4,39,1,0,1571017940,"~/mysite/blog/urls.py"
+-'  1  0  ~/mysite/blog/urls.py
+|4,39,1,0,1571017940,"~/mysite/blog/urls.py"
+-'  1  0  ~/mysite/blog/urls.py
+|4,39,1,0,1571017940,"~/mysite/blog/urls.py"
+-'  1  0  ~/mysite/blog/urls.py
+|4,39,1,0,1571017940,"~/mysite/blog/urls.py"
+-'  1  0  ~/mysite/blog/urls.py
+|4,39,1,0,1571017940,"~/mysite/blog/urls.py"
+-'  1  0  ~/mysite/blog/urls.py
+|4,39,1,0,1571017940,"~/mysite/blog/urls.py"
+-'  1  0  ~/mysite/blog/urls.py
+|4,39,1,0,1571017940,"~/mysite/blog/urls.py"
+-'  1  0  ~/mysite/blog/urls.py
+|4,39,1,0,1571017940,"~/mysite/blog/urls.py"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  1  0  ~/mysite/blog
+|4,39,1,0,1571017897,"~/mysite/blog"
+-'  21  39  ~/mysite/mysite/urls.py
+|4,39,21,39,1571017887,"~/mysite/mysite/urls.py"
+-'  21  39  ~/mysite/mysite/urls.py
+|4,39,21,39,1571017887,"~/mysite/mysite/urls.py"
+-'  21  39  ~/mysite/mysite/urls.py
+|4,39,21,39,1571017887,"~/mysite/mysite/urls.py"
+-'  21  39  ~/mysite/mysite/urls.py
+|4,39,21,39,1571017887,"~/mysite/mysite/urls.py"
+-'  21  39  ~/mysite/mysite/urls.py
+|4,39,21,39,1571017887,"~/mysite/mysite/urls.py"
+-'  21  39  ~/mysite/mysite/urls.py
+|4,39,21,39,1571017887,"~/mysite/mysite/urls.py"
+-'  21  39  ~/mysite/mysite/urls.py
+|4,39,21,39,1571017887,"~/mysite/mysite/urls.py"
+-'  21  39  ~/mysite/mysite/urls.py
+|4,39,21,39,1571017887,"~/mysite/mysite/urls.py"
+-'  22  0  ~/mysite/mysite/urls.py
+|4,39,22,0,1571017781,"~/mysite/mysite/urls.py"
+-'  22  0  ~/mysite/mysite/urls.py
+|4,39,22,0,1571017781,"~/mysite/mysite/urls.py"
+-'  22  0  ~/mysite/mysite/urls.py
+|4,39,22,0,1571017781,"~/mysite/mysite/urls.py"
+-'  22  0  ~/mysite/mysite/urls.py
+|4,39,22,0,1571017781,"~/mysite/mysite/urls.py"
+-'  22  0  ~/mysite/mysite/urls.py
+|4,39,22,0,1571017781,"~/mysite/mysite/urls.py"
+-'  22  0  ~/mysite/mysite/urls.py
+|4,39,22,0,1571017781,"~/mysite/mysite/urls.py"
+-'  22  0  ~/mysite/mysite/urls.py
+|4,39,22,0,1571017781,"~/mysite/mysite/urls.py"
+-'  22  0  ~/mysite/mysite/urls.py
+|4,39,22,0,1571017781,"~/mysite/mysite/urls.py"
+-'  22  0  ~/mysite/mysite/urls.py
+|4,39,22,0,1571017781,"~/mysite/mysite/urls.py"
+-'  22  0  ~/mysite/mysite/urls.py
+|4,39,22,0,1571017781,"~/mysite/mysite/urls.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
+-'  40  8  ~/mysite/mysite/settings.py
+|4,39,40,8,1571017545,"~/mysite/mysite/settings.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/mysite/mysite/urls.py
+	*	1571018649	0
+	"	21	9
+	^	21	10
+	.	21	10
+	+	23	0
+	+	17	33
+	+	22	37
+	+	17	33
+	+	21	10
+
+> ~/mysite/blog/views.py
+	*	1571018322	0
+	"	6	36
+	^	6	37
+	.	6	36
+	+	5	3
+	+	2	34
+	+	5	19
+	+	6	23
+	+	2	35
+	+	6	36
+
+> ~/mysite/blog/urls.py
+	*	1571018152	0
+	"	6	40
+	^	6	41
+	.	6	40
+	+	1	28
+	+	4	17
+	+	8	0
+	+	5	15
+	+	6	40
+
+> ~/mysite/mysite/settings.py
+	*	1571017544	0
+	"	40	8
+	^	40	9
+	.	40	8
+	+	109	25
+	+	107	23
+	+	129	0
+	+	17	45
+	+	58	30
+	+	40	8
 
 > ~/mysite/avgle/views.py
 	*	1570852224	0
@@ -111,12 +324,3 @@
 	+	4	18
 	+	5	15
 	+	6	40
-
-> ~/mysite/mysite/urls.py
-	*	1570851204	0
-	"	21	37
-	^	21	38
-	.	21	37
-	+	22	0
-	+	17	33
-	+	21	37
