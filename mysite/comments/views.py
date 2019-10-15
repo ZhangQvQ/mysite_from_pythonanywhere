@@ -20,7 +20,7 @@ def comment(request, post_pk):
 
         comment.save()
 
-        messages.add_message(request, messages.SUCCESS, , '评论发表成功！', extra_tags='success')
+        messages.add_message(request, messages.SUCCESS, '评论发表成功！', extra_tags='success')
 
         return redirect(post)
     
