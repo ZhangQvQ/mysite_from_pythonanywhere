@@ -32,7 +32,7 @@ def tag(request, pk):
 
 def detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
-    md = markdown.Markdown(extension=[
+    md = markdown.Markdown(extensions=[
         'markdown.extensions.extra',
         'markdown.extensions.codehilite',
         TocExtension(slugify=slugify),
